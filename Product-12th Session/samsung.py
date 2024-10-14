@@ -3,7 +3,7 @@ from electrical import Electrical
 from product import Product
 
 
-class Samsung(Product, Electrical, Phone):
+class Samsung(Phone, Electrical,  Product):
     def __init__(self, id, name, price, voltage, size, flip):
         self.id = id
         self.name = name

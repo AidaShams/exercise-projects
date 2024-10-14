@@ -3,7 +3,7 @@ from nonelectrical import Nonelectrical
 from product import positive_number_validator
 
 
-class Furniture(Product, Nonelectrical):
+class Furniture(Nonelectrical, Product):
     def __init__(self, id, name, price, weight, capacity):
         self.id = id
         self.name = name

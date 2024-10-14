@@ -3,7 +3,7 @@ from electrical import Electrical
 from product import positive_number_validator
 
 
-class Laptop(Product, Electrical):
+class Laptop(Electrical, Product):
     def __init__(self, id, name, price, voltage, cpu, ram):
         self.id = id
         self.name = name

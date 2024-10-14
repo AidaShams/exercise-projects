@@ -4,7 +4,7 @@ from product import Product
 from product import validator
 
 
-class Apple(Product, Electrical, Phone):
+class Apple(Phone, Electrical,  Product):
     def __init__(self, id, name, price, voltage, size, country):
         self.id = id
         self.name = name
