@@ -3,6 +3,10 @@
 #for i in iterable:
 #    print(i)
 #--------------------------------
-for i in "iterable":
-    print("hi")
+# writes hi for each character in "iterable"
+#for i in "iterable":
+#    print("hi")
 #----------------------------------
+# when you dont wanna use the name of the variable inside the loop:
+#for _ in "welcome":
+#    print("hi")
